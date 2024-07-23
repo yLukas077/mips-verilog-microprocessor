@@ -26,5 +26,4 @@ retorno3:
 	addi $a0, $t6, 3
 	j saida
 saida:
-	li $v0, 10
-	syscall
+	
