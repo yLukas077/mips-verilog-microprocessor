@@ -1,13 +1,11 @@
-def calcular_imc():
-    imc = peso * 10000 // (altura ** 2)
-    if imc < 19:
-        return 1
-    elif 19 <= imc < 25:
-        return 2
-    else:
-        return 3
+A = 21
+B = 2
+C = 5
+D = A + B
+E = D - C
 
-altura = 180  # altura em centímetros
-peso = 105  # peso em quilogramas
-
-faixa_imc = calcular_imc()
+print(A)
+print(B)
+print(C)
+print(D)
+print(E)
